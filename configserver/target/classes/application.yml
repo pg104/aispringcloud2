@@ -1,0 +1,18 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/pg104/aispringcloud2.git
+          search-paths: config
+          username: pangen
+          password: pg13135509177
+      label: master
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
