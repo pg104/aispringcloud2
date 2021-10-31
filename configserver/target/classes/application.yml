@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/pg104/aispringcloud2.git
+          uri: git://github.com/pg104/aispringcloud2.git
           search-paths: config
           username: pangen
           password: pg13135509177

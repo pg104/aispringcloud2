@@ -9,12 +9,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="hystrix" />
         <module name="nativeconfigserver" />
-        <module name="configclient" />
+        <module name="zipkin" />
         <module name="ribbon" />
-        <module name="eurekaclient" />
         <module name="zuul" />
         <module name="nativeconfigclient" />
         <module name="configserver" />
+        <module name="configclient" />
+        <module name="zipkinclient" />
+        <module name="eurekaclient" />
         <module name="eurekaerver" />
         <module name="feign" />
         <module name="consumer" />
@@ -36,6 +38,8 @@
       <module name="nativeconfigserver" options="-parameters" />
       <module name="resttemplate" options="-parameters" />
       <module name="ribbon" options="-parameters" />
+      <module name="zipkin" options="-parameters" />
+      <module name="zipkinclient" options="-parameters" />
       <module name="zuul" options="-parameters" />
     </option>
   </component>
